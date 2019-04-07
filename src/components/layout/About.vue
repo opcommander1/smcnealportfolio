@@ -14,13 +14,14 @@
             <span class="yellow-text accent-3">L</span></h2>
          </div>
           <div class="row">
-            <h2 class="last-name col sm6"><span class="red-text">M</span>
+            <h2 class="last-name col s1"><span class="red-text">M</span>
             <span class="blue-text darken-1">C</span>
             <span class="deep-purple-text darken-1">N</span>
             <span class="teal-text darken-1">E</span>
             <span class="green-text darken-1">A</span>
             <span class="deep-orange-text">L</span></h2>
-            <img src="../../assets/forrealcodes.png" alt="">
+            <img src="../../assets/forrealcodes.png" alt="" class="col s5">
+            <p class="summary col s5 deep-orange-text">Hi I am FULL STACK WEB DEVELOPER with an Associate degree in Computer Engineering Technology.  I love figuring out solutions and building applications to serve my client's needs.  My 15 years in legal gave me the vast opportunity to be experience in many databases and technologies.  Therefore, if you're looking for a hard working, dedicated, good team player, and high energy, I am the person for you!</p>
           </div>
       </div>
     </div>
@@ -47,6 +48,7 @@ export default {
 .about-backgd h1 {
   margin: 0;
   padding-top: 35px;
+  font-weight: 300;
 }
 
 .about-backgd .first-name {
@@ -62,7 +64,6 @@ export default {
 
 .about-backgd img{
   max-width: 380px;
-  margin-left: -34px;
   -webkit-animation-name: flip;
   -webkit-animation-duration: 500ms;
   -webkit-animation-iteration-count: 5;
@@ -76,6 +77,13 @@ export default {
   -ms-animation-iteration-count: 5;
   -ms-animation-timing-function: linear;
   -o-transition: rotate(3600deg);
+}
+
+.about-backgd .summary{
+  background: rgba(0, 0, 0, 0.8);
+  font-size: 1.1em;
+  text-align: center;
+  border-radius: 10px;
 }
 
 @-moz-keyframes flip {
