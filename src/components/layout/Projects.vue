@@ -1,0 +1,91 @@
+<template>
+<section class="projects">
+  <div class="container">
+    <h1 class="black-text center">Projects</h1>
+    <div class="row">
+      <ul v-if="projects">
+        <li v-for="(project, index) in projects" :key="index" class="project-lists">
+          <div class="col s4">
+            <div class="card medium sticky-action">
+              <div class="card-image">
+                <img class="activator" v-bind:src="project.img" alt="No display">
+              </div>
+              <div class="card-content">
+                  <span class="card-title activator teal-text">{{ project.title }}<i class="material-icons right">more_vert</i></span>
+              </div>
+              <div class="card-action">
+                <p><a class="teal-text" v-bind:href="project.applink" target="blank">APP LINK</a></p>
+                <p><a class="teal-text" v-bind:href="project.githublink" target="blank">GITHUB</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title"><i class="material-icons right">close</i></span>
+                <p>{{ project.description }}</p>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+  
+</template>
+
+<script>
+export default {
+  name: 'Projects',
+  data(){
+    return {
+      projects: [{
+        activator: "activator",
+        img: require("../../assets/ecosystems.png"),
+        title: "ECO HEALTH SYSTEMS",
+        applink: "https://ecohealthsystems.forrealcodes.com/",
+        githublink: "https://github.com/opcommander1/ecohealthsystem",
+        description: "Eco Health Systems is a in-house business application that helps employees to keep track of appointments. This appointment scheduler is built on node js, rest API routing, npm node packages, mysql database, passport login system, html, css and ejs template engine."
+        },
+        {
+        img: require("../../assets/idareworldscreenshot.jpg"),
+        title: "IDARE@, INC",
+        applink: "http://idareworld.org/",
+        githublink: "https://github.com/opcommander1/idare",
+        description: "The purpose of the site is to educate people on disaster preparedness. The coding behind the design is, Html, Css, Javascript, Php, and Bootstrap and then converted to Wordpress."
+        },
+        {
+        img: require("../../assets/quickmovies.png"),
+        title: "QUICK MOVIES",
+        applink: "https://www.quickmovies.online/",
+        githublink: "https://github.com/opcommander1/moviepicks",
+        description: "This site give quick details on specific movies without the extras. Top three actors, movie title, overview description, year release date, rating genres and similar films. Technology used, node js, api, html, css, javascript ES6, classes, webpack, axiom, npm and git."
+        },
+        {
+        img: require("../../assets/imsocialthumbnail.png"),
+        title: "I'M SOCIAL",
+        applink: "http://www.imsocial.op1commander.com/",
+        githublink: "https://github.com/opcommander1/im-social",
+        description: "I'm social is a design concept for social media purposes. The coding includes Html, Css and Mobile responsiveness."
+        },
+        {
+        img: require("../../assets/earfullthumbnail.png"),
+        title: "EARFULL HEADPHONES",
+        applink: "http://www.earfullheadphones.op1commander.com/",
+        githublink: "https://github.com/opcommander1/EarFull-Headphones",
+        description: "Earfull headpones is a landing page design, which the customers first see when coming to the page. The coding used in this project is Html, Css and Mobile Responsiveness. The idea behind the project is to bring interest to customers with various popular products that the store presents."
+        },
+      ]
+    }
+  }
+}
+</script>
+
+<style>
+.projects h1{
+  font-weight: 300;
+}
+.projects .card-title {
+  font-size: 16px;
+}
+
+</style>
+
+

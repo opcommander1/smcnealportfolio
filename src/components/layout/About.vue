@@ -1,6 +1,7 @@
 <template>
   <section class="about">
     <div class="about-backgd">
+      <div class="backgd-blurr">
       <div class="container">
         <!-- <img src="assets/aboutbg.png" alt="" class="responsive-img"> -->
         <h1 class="white-text center">About</h1>
@@ -24,6 +25,7 @@
             <p class="summary col s5 deep-orange-text">Hi I am FULL STACK WEB DEVELOPER with an Associate degree in Computer Engineering Technology.  I love figuring out solutions and building applications to serve my client's needs.  My 15 years in legal gave me the vast opportunity to be experience in many databases and technologies.  Therefore, if you're looking for a hard working, dedicated, good team player, and high energy, I am the person for you!</p>
           </div>
       </div>
+      </div>
     </div>
   </section>
 </template>
@@ -42,7 +44,10 @@ export default {
 <style>
 .about-backgd {
   background: url("../../assets/aboutbg.png");
-  opacity: 0.9;
+}
+
+.about-backgd .backgd-blurr {
+background: rgba(0, 0, 0, 0.5);
 }
 
 .about-backgd h1 {
@@ -80,7 +85,7 @@ export default {
 }
 
 .about-backgd .summary{
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.4);
   font-size: 1.1em;
   text-align: center;
   border-radius: 10px;

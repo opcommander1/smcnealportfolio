@@ -39,7 +39,7 @@ export default {
       },
       backend(){
         this.show = true
-        this.results = ['Mysql', 'MyphpAdmin', 'PHP', 'Node JS', 'Rest Api']
+        this.results = ['Mysql', 'MyphpAdmin', 'PHP', 'Node JS', 'Rest Api', 'Firebase']
       },
       frontend(){
         this.show = true

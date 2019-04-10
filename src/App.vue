@@ -5,6 +5,8 @@
     <Navbar />
     <About />
     <Skills />
+    <Projects />
+    <Contact />
     <router-view/>
   </div>
 </template>
@@ -13,13 +15,17 @@
 import Navbar from '@/components/layout/Navbar'
 import About from '@/components/layout/About'
 import Skills from '@/components/layout/Skills'
+import Projects from '@/components/layout/Projects'
+import Contact from '@/components/layout/Contact'
 
 export default {
   name: 'App',
   components: {
     Navbar,
     About,
-    Skills
+    Skills,
+    Projects,
+    Contact
   }
 
 }
