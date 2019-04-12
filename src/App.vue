@@ -7,6 +7,7 @@
     <Skills />
     <Projects />
     <Contact />
+    <Footer />
     <router-view/>
   </div>
 </template>
@@ -17,6 +18,7 @@ import About from '@/components/layout/About'
 import Skills from '@/components/layout/Skills'
 import Projects from '@/components/layout/Projects'
 import Contact from '@/components/layout/Contact'
+import Footer from '@/components/layout/Footer'
 
 export default {
   name: 'App',
@@ -25,7 +27,8 @@ export default {
     About,
     Skills,
     Projects,
-    Contact
+    Contact,
+    Footer
   }
 
 }

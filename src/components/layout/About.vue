@@ -1,5 +1,5 @@
 <template>
-  <section class="about">
+  <section class="about" id="about">
     <div class="about-backgd">
       <div class="backgd-blurr">
       <div class="container">
@@ -21,7 +21,7 @@
             <span class="teal-text darken-1">E</span>
             <span class="green-text darken-1">A</span>
             <span class="deep-orange-text">L</span></h2>
-            <img src="../../assets/forrealcodes.png" alt="" class="col s5">
+            <img src="../../assets/forrealcodes.png" alt="That's For Real Codes" class="col s5">
             <p class="summary col s5 deep-orange-text">Hi I am FULL STACK WEB DEVELOPER with an Associate degree in Computer Engineering Technology.  I love figuring out solutions and building applications to serve my client's needs.  My 15 years in legal gave me the vast opportunity to be experience in many databases and technologies.  Therefore, if you're looking for a hard working, dedicated, good team player, and high energy, I am the person for you!</p>
           </div>
       </div>
@@ -67,7 +67,7 @@ background: rgba(0, 0, 0, 0.5);
   display: block;
 }
 
-.about-backgd img{
+.about-backgd img {
   max-width: 380px;
   -webkit-animation-name: flip;
   -webkit-animation-duration: 500ms;

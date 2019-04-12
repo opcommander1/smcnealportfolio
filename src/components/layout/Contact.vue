@@ -1,5 +1,5 @@
 <template>
-  <section class="contact">
+  <section class="contact" id="contact">
     <div class="back-gd teal">
       <h1 class="center">Contact Me</h1>
       <p class="center" id="subtitle">Let's Build This</p>
@@ -8,20 +8,22 @@
           <div class="col m12 s6 offset-s3">
             <div class="card-panel brown lighten-5">
               <form @submit.prevent="addCustomer">
-                <div class="input-field col s6">
+                <div class="input-field col m6 s12">
                   <input type="text" name="name" v-model="name">
                   <label for="name">Name:</label>
+                  <p v-if="feedbackone" class="red-text center">{{ feedbackone }}</p>
                 </div>
-                <div class="input-field col s6">
+                <div class="input-field col m6 s12">
                   <input type="text" name="email" v-model="email">
                   <label for="email">Email:</label>
+                  <p v-if="feedbacktwo" class="red-text center">{{ feedbacktwo }}</p>
                 </div>
-                <div class="input-field col s12">
+                <div class="input-field col m12 s12">
                   <textarea v-model="message" name="message" class="materialize-textarea"></textarea>
                   <label for="message">Message:</label>
                 </div>
                 <div class="col s12 center">
-                  <a class="teal btn-large">SUBMIT</a>
+                  <button class="teal btn-large">SUBMIT</button>
                 </div>
               </form>
             </div>
@@ -43,13 +45,15 @@ export default {
       name: null,
       email: null,
       message: null,
-      feedback: null
+      feedbackone: null,
+      feedbacktwo: null
     }
   },
   methods: {
     addCustomer(){
       if(this.name && this.email) {
-        this.feedback = null
+        this.feedbackone = null
+        this.feedbacktwo = null
         db.collection('customers').add({
           name: this.name,
           email: this.email,
@@ -57,10 +61,14 @@ export default {
         }).then(() => {
           this.name = null,
           this.email = null,
-          this.message = null
+          this.message = null,
+          this.feedbackone = null,
+          this.feedbacktwo = null
         })
-      } else if (!this.name) {
-        this.feedback = "Please enter a name"
+      } if(!this.name) {
+        this.feedbackone = "Please enter a name"
+      } else {
+        this.feedbacktwo = "Please enter a email"
       }
     }
   }
@@ -78,7 +86,7 @@ export default {
 }
 
 .contact .card-panel {
-  height: 250px;
+  height: 100%;
   width: 100%;
   overflow: auto;
 }

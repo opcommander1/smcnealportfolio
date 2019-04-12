@@ -1,11 +1,11 @@
 <template>
-<section class="projects">
+<section class="projects" id="projects">
   <div class="container">
     <h1 class="black-text center">Projects</h1>
     <div class="row">
       <ul v-if="projects">
         <li v-for="(project, index) in projects" :key="index" class="project-lists">
-          <div class="col s4">
+          <div class="col m4 s10 offset-s1">
             <div class="card medium sticky-action">
               <div class="card-image">
                 <img class="activator" v-bind:src="project.img" alt="No display">
@@ -49,7 +49,7 @@ export default {
         title: "IDARE@, INC",
         applink: "http://idareworld.org/",
         githublink: "https://github.com/opcommander1/idare",
-        description: "The purpose of the site is to educate people on disaster preparedness. The coding behind the design is, Html, Css, Javascript, Php, and Bootstrap and then converted to Wordpress."
+        description: "The purpose of the site is to educate people on disaster preparedness. The coding behind the design is, html, css, javascript, php, and bootstrap and then converted to Wordpress."
         },
         {
         img: require("../../assets/quickmovies.png"),
@@ -63,14 +63,14 @@ export default {
         title: "I'M SOCIAL",
         applink: "http://www.imsocial.op1commander.com/",
         githublink: "https://github.com/opcommander1/im-social",
-        description: "I'm social is a design concept for social media purposes. The coding includes Html, Css and Mobile responsiveness."
+        description: "I'm social is a design concept for social media purposes. The coding includes html, css and mobile responsiveness."
         },
         {
         img: require("../../assets/earfullthumbnail.png"),
         title: "EARFULL HEADPHONES",
         applink: "http://www.earfullheadphones.op1commander.com/",
         githublink: "https://github.com/opcommander1/EarFull-Headphones",
-        description: "Earfull headpones is a landing page design, which the customers first see when coming to the page. The coding used in this project is Html, Css and Mobile Responsiveness. The idea behind the project is to bring interest to customers with various popular products that the store presents."
+        description: "Earfull headpones is a landing page design, which the customers first see when coming to the page. The coding used in this project is html, css and mobile responsiveness. The idea behind the project is to bring interest to customers with various popular products that the store presents."
         },
       ]
     }
