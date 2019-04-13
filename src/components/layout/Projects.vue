@@ -61,15 +61,14 @@ export default {
         {
         img: require("../../assets/imsocialthumbnail.png"),
         title: "I'M SOCIAL",
-        applink: "http://www.imsocial.op1commander.com/",
+        applink: "https://www.imsocial.forrealcodes.com/",
         githublink: "https://github.com/opcommander1/im-social",
         description: "I'm social is a design concept for social media purposes. The coding includes html, css and mobile responsiveness."
         },
         {
         img: require("../../assets/earfullthumbnail.png"),
         title: "EARFULL HEADPHONES",
-        applink: "http://www.earfullheadphones.op1commander.com/",
-        githublink: "https://github.com/opcommander1/EarFull-Headphones",
+        applink: "https://www.earfullheadphones.forrealcodes.com/",
         description: "Earfull headpones is a landing page design, which the customers first see when coming to the page. The coding used in this project is html, css and mobile responsiveness. The idea behind the project is to bring interest to customers with various popular products that the store presents."
         },
       ]
