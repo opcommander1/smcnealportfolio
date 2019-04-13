@@ -69,6 +69,7 @@ export default {
         img: require("../../assets/earfullthumbnail.png"),
         title: "EARFULL HEADPHONES",
         applink: "https://www.earfullheadphones.forrealcodes.com/",
+        githublink: "https://github.com/opcommander1/EarFull-Headphones",
         description: "Earfull headpones is a landing page design, which the customers first see when coming to the page. The coding used in this project is html, css and mobile responsiveness. The idea behind the project is to bring interest to customers with various popular products that the store presents."
         },
       ]
