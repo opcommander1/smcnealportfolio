@@ -47,7 +47,7 @@ export default {
         {
         img: require("../../assets/idareworldscreenshot.jpg"),
         title: "IDARE@, INC",
-        applink: "http://idareworld.org/",
+        applink: "https://www.idare.forrealcodes.com/",
         githublink: "https://github.com/opcommander1/idare",
         description: "The purpose of the site is to educate people on disaster preparedness. The coding behind the design is, html, css, javascript, php, and bootstrap and then converted to Wordpress."
         },
