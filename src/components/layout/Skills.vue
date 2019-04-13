@@ -46,7 +46,7 @@ export default {
       },
       frontend(){
         this.show = true
-        this.results = ['HTML5', 'CSS', 'Javascript', 'Jquery']
+        this.results = ['HTML5', 'CSS', 'Javascript', 'ES6', 'Jquery']
       },
       framework(){
         this.show = true

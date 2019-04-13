@@ -24,6 +24,7 @@
                 </div>
                 <div class="col s12 center">
                   <button class="teal btn-large">SUBMIT</button>
+                  <p v-if="feedbackthree" class="green-text center">{{ feedbackthree }}</p>
                 </div>
               </form>
             </div>
@@ -46,7 +47,8 @@ export default {
       email: null,
       message: null,
       feedbackone: null,
-      feedbacktwo: null
+      feedbacktwo: null,
+      feedbackthree: null
     }
   },
   methods: {
@@ -54,6 +56,8 @@ export default {
       if(this.name && this.email) {
         this.feedbackone = null
         this.feedbacktwo = null
+        this.feedbackthree = null
+        this.feedbackthree = "Sent Successfully"
         db.collection('customers').add({
           name: this.name,
           email: this.email,
@@ -63,11 +67,12 @@ export default {
           this.email = null,
           this.message = null,
           this.feedbackone = null,
-          this.feedbacktwo = null
+          this.feedbacktwo = null,
+          this.feedbackthree = null
         })
       } if(!this.name) {
         this.feedbackone = "Please enter a name"
-      } else {
+      } if(!this.email) {
         this.feedbacktwo = "Please enter a email"
       }
     }
