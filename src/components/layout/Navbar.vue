@@ -27,7 +27,7 @@ export default {
 <style>
 
 .navbar li a{
-font-size: 20px;
+font-size: 3.1vw;
 font-weight: 300;
 transition: color .3s ease-in-out;
 }
