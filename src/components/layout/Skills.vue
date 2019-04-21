@@ -74,10 +74,6 @@ export default {
    font-weight: 300;
  }
 
- /* .skills .skills-listleft {
-   margin-right: -22px;
- } */
-
  .skills .skills-listleft li{
    font-weight: 300;
    padding-bottom: 10px;
