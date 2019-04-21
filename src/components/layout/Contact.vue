@@ -5,7 +5,7 @@
       <p class="center" id="subtitle">Let's Build This</p>
       <div class="container">
         <div class="row">
-          <div class="col m12 s6 offset-s3">
+          <div class="col m12 s12">
             <div class="card-panel brown lighten-5">
               <form @submit.prevent="addCustomer">
                 <div class="input-field col m6 s12">
