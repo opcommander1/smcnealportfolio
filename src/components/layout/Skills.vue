@@ -46,7 +46,7 @@ export default {
       },
       frontend(){
         this.show = true
-        this.results = ['HTML5', 'CSS', 'Javascript', 'ES6', 'Jquery']
+        this.results = ['HTML5', 'CSS', 'Javascript', 'ES6']
       },
       framework(){
         this.show = true
@@ -92,11 +92,6 @@ export default {
    width: 100%;
  }
 
- /* .skills .macbook-img img {
-  width: 368px;
-  margin-left: -32px;
- } */
-
  .skills .macbook-img .skills-display {
    position: absolute;
    top: 2px;
@@ -106,54 +101,34 @@ export default {
    width: 100%;
  }
 
- /* .skills .skills-listright {
-   padding-left: 82px;
- } */
-
   .skills .skills-listright li {
    padding-bottom: 10px;
    font-weight: 300;
  }
 
-
-
-
-
- /* .skills .skills-listleft {
-   margin-right: -22px;
+  @media screen and (max-width: 780px) {
+    .skills .macbook-img .skills-display {
+    font-size: 1.0em;
  }
+}
 
- .skills .skills-listleft li{
-   margin-bottom: 15px;
-   font-weight: 300;
+  @media screen and (max-width: 695px) {
+    .skills .macbook-img .skills-display {
+    font-size: 0.9em;
  }
+}
 
- .skills .macbook-img {
-   position: relative;
+  @media screen and (max-width: 600px) {
+    .skills .macbook-img .skills-display {
+    font-size: 1.2em;
  }
+}
 
- .skills .macbook-img img {
-  width: 368px;
-  margin-left: -32px;
+  @media screen and (max-width: 460px) {
+    .skills .macbook-img .skills-display {
+    font-size: 0.9em;
  }
-
- .skills .macbook-img .skills-display {
-   position: absolute;
-   top: 2px;
-   right: 23%;
-   font-size: 1.2em;
-   text-align: center;
-   width: 100px;
- }
-
- .skills .skills-listright {
-   padding-left: 82px;
- }
-
-  .skills .skills-listright li {
-   margin-bottom: 15px;
-   font-weight: 300;
- } */
+}
 </style>
 
 
