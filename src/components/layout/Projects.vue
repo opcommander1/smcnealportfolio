@@ -73,7 +73,7 @@ export default {
         description: "Earfull headpones is a landing page design, which the customers first see when coming to the page. The coding used in this project is html, css and mobile responsiveness. The idea behind the project is to bring interest to customers with various popular products that the store presents."
         },
         {
-        img: require("../../assets/fulllogo.png"),
+        img: require("../../assets/fulllogo2.png"),
         title: "THAT'S FOR REAL MUSIC",
         applink: "https://www.thatsforrealmusic.com/",
         githublink: "https://github.com/opcommander1/thatsforrealmusic",
