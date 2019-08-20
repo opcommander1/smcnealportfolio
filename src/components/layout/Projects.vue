@@ -73,11 +73,11 @@ export default {
         description: "Earfull headpones is a landing page design, which the customers first see when coming to the page. The coding used in this project is html, css and mobile responsiveness. The idea behind the project is to bring interest to customers with various popular products that the store presents."
         },
         {
-        img: require("../../assets/thatsforrealmusic.png"),
+        img: require("../../assets/fulllogo.png"),
         title: "THAT'S FOR REAL MUSIC",
         applink: "https://www.thatsforrealmusic.com/",
         githublink: "https://github.com/opcommander1/thatsforrealmusic",
-        description: "That's For Real Music is a Full Stack Application that teaches customers how to learn to play the piano.  The includes vue js, html, css, javascript, rest api, axios, node js, mysql, jwt tokens and bcrypt."
+        description: "That's For Real Music is a Full Stack Application that teaches customers how to learn to play the piano.  The coding includes vue js, html, css, javascript, rest api, axios, node js, mysql, jwt tokens and bcrypt."
         },
       ]
     }
