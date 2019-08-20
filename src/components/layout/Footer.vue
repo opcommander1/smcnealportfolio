@@ -13,7 +13,6 @@
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <li><a href="https://drive.google.com/open?id=1VYpviZlqysDQFm0Kq4jlkpoDfvplnyay" target="blank">Resume</a></li>
               </ul>
           </div>
           <div class="col m3 s12">
@@ -24,10 +23,9 @@
               </ul>
           </div>
           <div class="col m3 s12">
-            <h5 class="title-address white-text">ADDRESSES</h5>
-              <ul class="address-list">
-                <li class="white-text">Address: Kansas City, MO</li>
-                <li class="white-text">Email: smcneal@forrealcodes.com</li>
+            <h5 class="title-apprec white-text">Thank You</h5>
+              <ul class="apprec-list">
+                <li class="white-text">Thank you for your time</li>
               </ul>
           </div>
         </div>
@@ -83,11 +81,11 @@ export default {
   padding-right: 5px;
 }
 
-.info .title-address {
+.info .title-apprec {
   font-weight: 300;
 }
 
-.info .address-list li {
+.info .apprec-list li {
   font-weight: 300;
 }
 </style>

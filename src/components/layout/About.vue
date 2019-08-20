@@ -22,7 +22,7 @@
             <span class="green-text darken-1">A</span>
             <span class="deep-orange-text">L</span></h2>
             <img src="../../assets/forrealcodes.png" alt="That's For Real Codes" class="col s5">
-            <p class="summary col m5 s12 deep-orange-text">Hi I am FULL STACK WEB DEVELOPER with an Associate degree in Computer Engineering Technology.  I love figuring out solutions and building applications to serve my client's needs.  My 15 years in legal gave me the vast opportunity to be experience in many databases and technologies.  Therefore, if you're looking for a hard working, dedicated, good team player, and high energy, I am the person for you!</p>
+            <p class="summary col m5 s12 deep-orange-text">Hi I am FULL STACK WEB DEVELOPER with an Associate degree in Computer Engineering Technology.  I love figuring out solutions and building applications from front and backend to serve my client's needs.  My many years in legal gave me the vast opportunity to be experience in many databases and technologies.  Therefore, if you're looking for a hard working, dedicated, good team player, and willing to tackle any problem, I am the person for you!</p>
           </div>
       </div>
       </div>
