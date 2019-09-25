@@ -50,7 +50,7 @@ export default {
       },
       framework(){
         this.show = true
-        this.results = ['Vue JS', 'Express JS', 'Bootstrap', 'Jquery', 'Materialize']
+        this.results = ['Vue JS', 'React JS', 'Express JS', 'Bootstrap', 'Jquery', 'Materialize']
       },
       databases(){
         this.show = true

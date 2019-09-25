@@ -5,8 +5,8 @@
     <div class="row">
       <ul v-if="projects">
         <li v-for="(project, index) in projects" :key="index" class="project-lists">
-          <div class="col m4 s10 offset-s1">
-            <div class="card medium sticky-action">
+          <div class="col l4 s10 offset-s1">
+            <div class="card large sticky-action">
               <div class="card-image">
                 <img class="activator" v-bind:src="project.img" alt="No display">
               </div>
@@ -52,11 +52,11 @@ export default {
         description: "The purpose of the site is to educate people on disaster preparedness. The coding behind the design is, html, css, javascript, php, and bootstrap and then converted to Wordpress."
         },
         {
-        img: require("../../assets/quickmovies.png"),
-        title: "QUICK MOVIES",
-        applink: "https://www.quickmovies.online/",
-        githublink: "https://github.com/opcommander1/moviepicks",
-        description: "This site give quick details on specific movies without the extras. Top three actors, movie title, overview description, year release date, rating genres and similar films. Technology used, node js, api, html, css, javascript ES6, classes, webpack, axiom, npm and git."
+        img: require("../../assets/miaag.png"),
+        title: "MIAAG",
+        applink: "https://www.miaag.com",
+        githublink: "https://github.com/opcommander1/quickmovies-react",
+        description: "This site give quick details on specific movies without the extras. Top three actors, movie title, overview description, year release date, rating genres and similar films. Technology used, node js, api, html, css, javascript ES6, classes, react js, axiom, npm and git."
         },
         {
         img: require("../../assets/imsocialthumbnail.png"),
